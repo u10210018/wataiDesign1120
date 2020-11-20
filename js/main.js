@@ -22,7 +22,7 @@ let changeLang = function (e) {
     document.getElementById('lang').innerText = e.currentTarget.innerText;
 };
 
-document.addEventListener('DOMContentLoad', doFirst());
+window.addEventListener('load', doFirst);
 document.getElementById('choose_lang').addEventListener('click', openList);
 document.getElementById('lang1').addEventListener('click', changeLang);
 document.getElementById('lang2').addEventListener('click', changeLang);
