@@ -158,6 +158,19 @@ body > .contact {
   border-right: none;
   -webkit-box-shadow: -1px 1px 1px 1px rgba(80, 80, 80, 0.37);
           box-shadow: -1px 1px 1px 1px rgba(80, 80, 80, 0.37);
+  -webkit-transition: -webkit-transform .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, -webkit-transform .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+}
+
+body > .contact:hover {
+  right: 3px;
+  -webkit-transform: translateY(-50%) translateX(-10px) scale(1.2);
+          transform: translateY(-50%) translateX(-10px) scale(1.2);
+  -webkit-box-shadow: 5px 5px 3px 1px #562FDA;
+          box-shadow: 5px 5px 3px 1px #562FDA;
+  border: 2px solid transparent;
 }
 
 body > header {
@@ -226,6 +239,10 @@ body > header > nav > #choose_lang {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 80px;
           flex: 1 0 80px;
+}
+
+body > header > nav > #choose_lang:hover {
+  background-color: #562FDA;
 }
 
 body > header > nav > #choose_lang.list-open {
