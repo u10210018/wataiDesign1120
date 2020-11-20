@@ -1,7 +1,7 @@
 # wataiDesign1020
 蛙設計文創工作室切版測試
 
-DEMO- https://u10210018.github.io/wataiDesign1020/
+DEMO- https://u10210018.github.io/wataiDesign1120/
 
 ## 所需目標
 
