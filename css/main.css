@@ -441,6 +441,7 @@ body > main > .cars-center > form > .login-btn {
   transition: transform .3s ease-in-out, box-shadow .3s ease-in-out, -webkit-transform .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  z-index: 999;
 }
 
 body > main > .cars-center > form > .login-btn:hover {
@@ -598,7 +599,7 @@ body footer > div > span.name.name-en {
 
 @media (max-width: 767px) {
   body > header {
-    padding: 0 5vw;
+    padding: 0 2vw;
     height: 2.5rem;
   }
   body > header > a {
