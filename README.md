@@ -3,6 +3,8 @@
 
 DEMO- https://u10210018.github.io/wataiDesign1120/
 
+行動裝置展示- [responsinator.com/wataiDesign1120](https://www.responsinator.com/?url=https%3A%2F%2Fu10210018.github.io%2FwataiDesign1120%2F)
+
 ## 所需目標
 
 1.中間版面置中，寬1200px
