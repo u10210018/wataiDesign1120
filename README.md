@@ -1,7 +1,7 @@
 # wataiDesign1020
 蛙設計文創工作室切版測試
 
-DEMO- https://u10210018.github.io/wataiDesign1020/
+DEMO- https://u10210018.github.io/wataiDesign1120/
 
 ## 所需目標
 
@@ -21,7 +21,7 @@ DEMO- https://u10210018.github.io/wataiDesign1020/
 
 ## 說明
 
-`css`:使用`reset.scss`，一致化既定格式。`@media query`主要以768px為分界，並大部分利用`flexbox`進行自適應的調整。
+`css`:使用`reset.scss`，一致化既定格式。`@media query`主要以768px為分界，並大部分利用`flexbox`進行自適應的調整，最小可支援至`320px`寬的畫面。
 `js`:由於本次切板較為靜態，未使用`jquery`、`vue`等框架，以`vanilla js`的方式撰寫，而本次使用的唯一套件: `day.js` : 簡化時間輸出顯示的過程。
 
 動態部分除了按鍵增加`hover`滑入效果外，樸片的部分，在中間的兩輛車在葉面進入時會移動，呈現動感，下方圖片的車輛也是以此做為`hover`效果。
