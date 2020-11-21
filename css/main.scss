@@ -277,7 +277,10 @@ body {
                     }
 
                     &:active {
-                        transform: scale(.95);
+                        transform: scale(.95) translateY(-5px);
+                        box-shadow: inset 0 2px 2px $shadow-color, inset 0 -2px 2px $shadow-color, 5px 5px 0 $shadow-color;
+                        background: none;
+                        background-color: $secondary-color;
                     }
                 }
 
